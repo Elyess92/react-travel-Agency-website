@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+.container {
+  background: rgb(153, 251, 153);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.body {
+  width: 85vw;
+  position: relative;
+}
+.nav-links img {
+  width: 50px;
+  height: 50px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  border-bottom: 5px solid rgb(78, 3, 251);
+}
+.cities {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.itemrec6d6T3q5EBIdCfD {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.itemrecIwxrvU9HfJR3B4 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.itemrecJLWcHScdUtI3ny {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.itemrecK2AOoVhIHPLUwn {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.itemreceAEzz86KzW2gvH {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.cities div {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cities div h4 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.cities div button {
+  padding: 5px 20px;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+.cities div a {
+  color: blue;
+  text-decoration: none;
+}
+.cities div img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.cities div span {
+  color: yellow;
+  font-weight: bolder;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: aliceblue;
+  width: 0%;
+  height: 0;
+}
+.control-buttons {
+  position: absolute;
+  top: 5%;
+  left: 7.5%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.control-buttons button {
+  margin-right: 5px;
+}

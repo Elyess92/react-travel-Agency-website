@@ -1,0 +1,53 @@
+.contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.illustration {
+  width: 40%;
+}
+.Login-form {
+  background: url('https://i.pinimg.com/564x/ea/e9/94/eae994c675fe4c17180f4060444882a4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+}
+form div {
+  display: flex;
+  align-items: center;
+}
+form .icon {
+  z-index: 2;
+  margin-left: 5px;
+  color: blue;
+}
+form button {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  margin-top: 10px;
+  padding: 5px 20px;
+}
